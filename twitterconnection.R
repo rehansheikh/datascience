@@ -9,10 +9,10 @@ library(tm)
 download.file(url = "http://curl.haxx.se/ca/cacert.pem", destfile = "E:\\DATA\\tutorials\\Data Science\\project\\twitter\\cacert.pem")
 
 #to get your consumerKey and consumerSecret see the twitteR documentation for instructions
-consumer_key <- 'nv7WOzLUS9DDxBduaEMOOSe8k'
-consumer_secret <- 'nMvdMztiaowztAdmKnzMcubIvrT2UszHjes1j3gJ51Zc3IPEw4'
-access_token <- '2311430767-eSPOZz1vlR1OcZKMmUjnE6QzyvBcYAY6g0PcVsN'
-access_secret <- 'NURQgqe1Qa8UQBsyGWbCxcXFyQXab3g3t2ENVx6C1hMgl'
+consumer_key <- ''
+consumer_secret <- ''
+access_token <- ''
+access_secret <- ''
 setup_twitter_oauth(consumer_key,
                     consumer_secret,
                     access_token,
